@@ -21,7 +21,10 @@ body {
 }
 
 header {
-  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  /* Use the generated cosmic banner as the hero background. The image is layered
+     beneath a gentle gradient to ensure readability of the overlaid text. */
+  background: url('banner.png') center/cover no-repeat,
+              linear-gradient(135deg, #4e54c8, #8f94fb);
   color: #fff;
   padding: 2.5rem 1rem;
   text-align: center;
