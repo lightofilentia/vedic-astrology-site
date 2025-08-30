@@ -16,15 +16,18 @@
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
-  color: #333;
-  background-color: #f9f9f9;
+  /* Use a darker text color that complements the new age palette */
+  color: #2d3958;
+  /* Light parchment‑like background for a mystical feel */
+  background-color: #f5f4f7;
 }
 
 header {
   /* Use the generated cosmic banner as the hero background. The image is layered
      beneath a gentle gradient to ensure readability of the overlaid text. */
   background: url('banner.png') center/cover no-repeat,
-              linear-gradient(135deg, #4e54c8, #8f94fb);
+              /* Overlay a subtle radial gradient using deep purples to evoke a zodiac chart */
+              radial-gradient(circle at top, rgba(88,60,122,0.8) 0%, rgba(45,57,88,0.8) 100%);
   color: #fff;
   padding: 2.5rem 1rem;
   text-align: center;
@@ -46,7 +49,8 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffe58a;
+  /* Accent color on hover */
+  color: #efc050;
 }
 
 .hero {
@@ -63,13 +67,14 @@ nav a:hover {
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 1.2rem;
-  color: #fefefe;
+  /* Slightly lighten hero body text to contrast with darker background */
+  color: #f0eef5;
 }
 
 .cta-button {
   display: inline-block;
-  background-color: #ffd700;
-  color: #333;
+  background-color: #efc050;
+  color: #2d3958;
   padding: 0.8rem 1.6rem;
   border-radius: 5px;
   text-decoration: none;
@@ -78,8 +83,8 @@ nav a:hover {
 }
 
 .cta-button:hover {
-  background-color: #ffea58;
-  color: #333;
+  background-color: #f5d36d;
+  color: #2d3958;
 }
 
 section {
@@ -92,7 +97,8 @@ section h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
   text-align: center;
-  color: #4e54c8;
+  /* Primary heading color inspired by zodiac purples */
+  color: #583c7a;
 }
 
 .video-grid {
@@ -112,7 +118,8 @@ section h2 {
   font-size: 1.1rem;
   margin-top: 0.6rem;
   margin-bottom: 0.4rem;
-  color: #333;
+  /* Harmonise video titles with the primary palette */
+  color: #583c7a;
 }
 
 .video p {
@@ -137,7 +144,7 @@ article {
 }
 
 article h3 {
-  color: #4e54c8;
+  color: #583c7a;
   margin-bottom: 0.6rem;
   font-size: 1.3rem;
 }
@@ -149,14 +156,15 @@ article p {
 }
 
 article a {
-  color: #e67e22;
+  /* Link color updated to golden accent */
+  color: #efc050;
   text-decoration: none;
   font-weight: 600;
   align-self: flex-start;
 }
 
 article a:hover {
-  color: #d35400;
+  color: #e0a738;
 }
 
 #about, #contact {
@@ -197,7 +205,8 @@ article a:hover {
 #contact button {
   align-self: flex-start;
   padding: 0.8rem 1.6rem;
-  background-color: #4e54c8;
+  /* Use the primary zodiac purple for the contact button */
+  background-color: #583c7a;
   color: #fff;
   border: none;
   border-radius: 5px;
